@@ -34,12 +34,25 @@ Epsilon is the range of the $\epsilon$ neighborhood of an instance, meaning that
 
 ### What is the sum of all cells in the contingency table used for external evaluation of clusters?
 
-It gives us the total number of instances.
+It gives us the total number of instances. Formula is $\frac{n(n-1)}{2}$.
 
 ### Compute the similarity of two ordinal instances
 
-i don't want to (i don't know how to, please tell me or open a pull request or sth)
+$$
+s(x,y) = \frac{\sum\limits_{i=1}^{m-1}\sum\limits_{j=i+1}^{m} o^x_{ij}o^y_ij}{\sum\limits_{i=1}^{m-1}\sum\limits_{j=i+1}^{m} |o^x_{ij}| |o^y_ij|}
+$$
 
+$$
+o^x_{ij} = 1 \hspace{0.2cm} \text{if} \hspace{0.2cm} x_i > x_j
+$$
+
+$$
+o^x_{ij} = -1 \hspace{0.2cm} \text{if} \hspace{0.2cm} x_i < x_j
+$$
+
+$$
+o^x_{ij} = 0 \hspace{0.2cm} \text{if} \hspace{0.2cm} x_i = x_j
+$$
 ### What are the hyper-parameters max iter and tol and how can they be used for stopping the KMeans algorithm?
 
 - max_iter is the maximum number of iterations. If the algorithm surpasses this number of iterations, it stops and returns.

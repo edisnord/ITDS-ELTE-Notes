@@ -1,5 +1,17 @@
 # Module 1 - Clustering
-#### Another miserably rushed quiz question answer session
+Another miserably rushed quiz question answer session
+
+- [Module 1 - Clustering](#module-1---clustering)
+    - [Compute the similarity of 2 binary instances when treating the aligning 0s and 1s equally and treating them unequally](#compute-the-similarity-of-2-binary-instances-when-treating-the-aligning-0s-and-1s-equally-and-treating-them-unequally)
+    - [What is the eps ($\\epsilon$) hyper-parameter in DBSCAN and what would happen to the clusters with high values for eps ($\\epsilon$)? `dbscan = DBSCAN(eps=0.35, min samples=3)`](#what-is-the-eps-epsilon-hyper-parameter-in-dbscan-and-what-would-happen-to-the-clusters-with-high-values-for-eps-epsilon-dbscan--dbscaneps035-min-samples3)
+    - [What is the sum of all cells in the contingency table used for external evaluation of clusters?](#what-is-the-sum-of-all-cells-in-the-contingency-table-used-for-external-evaluation-of-clusters)
+    - [Compute the similarity of two ordinal instances](#compute-the-similarity-of-two-ordinal-instances)
+    - [What are the hyper-parameters max iter and tol and how can they be used for stopping the KMeans algorithm?](#what-are-the-hyper-parameters-max-iter-and-tol-and-how-can-they-be-used-for-stopping-the-kmeans-algorithm)
+    - [What do the functions a(x) and b(x) indicate in the equation for the silhouette measure?](#what-do-the-functions-ax-and-bx-indicate-in-the-equation-for-the-silhouette-measure)
+    - [Compute the Manhattan distance of two numerical instances](#compute-the-manhattan-distance-of-two-numerical-instances)
+    - [What the axes x and y of the dendrogram represent and what is the ward hyper-parameter in hierarchical clustering?](#what-the-axes-x-and-y-of-the-dendrogram-represent-and-what-is-the-ward-hyper-parameter-in-hierarchical-clustering)
+    - [How is the within sum group of squares measure for evaluation of clusters computed?](#how-is-the-within-sum-group-of-squares-measure-for-evaluation-of-clusters-computed)
+
 
 ### Compute the similarity of 2 binary instances when treating the aligning 0s and 1s equally and treating them unequally
 

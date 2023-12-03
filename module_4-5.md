@@ -1,5 +1,21 @@
 # Module 4: Recommender Systems
-## Miserably rushed Module 4 quiz questions review
+Miserably rushed Module 4 quiz questions review
+
+- [Module 4: Recommender Systems](#module-4-recommender-systems)
+      - [Miserably rushed Module 4 quiz questions review](#miserably-rushed-module-4-quiz-questions-review)
+    - [How does user-based collaborative filtering work?](#how-does-user-based-collaborative-filtering-work)
+    - [What is the function of a Regularized Matrix Factorization model?](#what-is-the-function-of-a-regularized-matrix-factorization-model)
+    - [Explain Wrapper approaches for Feature Selection](#explain-wrapper-approaches-for-feature-selection)
+    - [What is the main idea behind PCA?](#what-is-the-main-idea-behind-pca)
+    - [How does Item-Based collaborative filtering work?](#how-does-item-based-collaborative-filtering-work)
+    - [What is bias and how do we utilize it in recommendation?](#what-is-bias-and-how-do-we-utilize-it-in-recommendation)
+    - [Explain filter approaches for feature selection](#explain-filter-approaches-for-feature-selection)
+    - [What is the connection between PCA and SVD](#what-is-the-connection-between-pca-and-svd)
+    - [Based on what and using which similarity measures do we compute the similarity of users in Neighborhood-based collaborative filtering?](#based-on-what-and-using-which-similarity-measures-do-we-compute-the-similarity-of-users-in-neighborhood-based-collaborative-filtering)
+    - [What is the main idea begind batesian personalized ranking?](#what-is-the-main-idea-begind-batesian-personalized-ranking)
+    - [What is the difference between simple random sampling and stratified sampling](#what-is-the-difference-between-simple-random-sampling-and-stratified-sampling)
+    - [What are the two constraints for optimization function when looking for the second principal component?](#what-are-the-two-constraints-for-optimization-function-when-looking-for-the-second-principal-component)
+
 
 ### How does user-based collaborative filtering work?
 

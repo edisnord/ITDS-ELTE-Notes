@@ -22,14 +22,11 @@ Another miserably rushed quiz question answer session
 |sum|a+c|b+d|m
 
 treating them equally:
-$$
-\frac{a+d}{m}
-$$
+
+$\frac{a+d}{m}$
 
 treating them unequally
-$$
-\frac{a+d/2}{m}
-$$
+$\frac{a+d/2}{m}$
 
 ### What is the eps ($\epsilon$) hyper-parameter in DBSCAN and what would happen to the clusters with high values for eps ($\epsilon$)? `dbscan = DBSCAN(eps=0.35, min samples=3)`
 

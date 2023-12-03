@@ -58,4 +58,4 @@ $$
 \sum\limits^k_{i=1}\sum\limits_{x \in D, p(x) = i} ||x - c_i||^2
 $$
 
-Sum of squared distances from each point in all of the clusters to its cluster's center.
+Sum of squared distances from each point in all of the clusters to its cluster's center. (Extra: The smaller the number of clusters for the same data, the greater the within sum group of squares becomes)

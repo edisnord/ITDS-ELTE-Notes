@@ -39,7 +39,7 @@ It gives us the total number of instances. Formula is $\frac{n(n-1)}{2}$.
 ### Compute the similarity of two ordinal instances
 
 $$
-s(x,y) = \frac{\sum\limits_{i=1}^{m-1}\sum\limits_{j=i+1}^{m} o^x_{ij}o^y_ij}{\sum\limits_{i=1}^{m-1}\sum\limits_{j=i+1}^{m} |o^x_{ij}| |o^y_ij|}
+s(x,y) = \frac{\sum\limits_{i=1}^{m-1}\sum\limits_{j=i+1}^{m} o^x_{ij}o^y_{ij}}{\sum\limits_{i=1}^{m-1}\sum\limits_{j=i+1}^{m} |o^x_{ij}| |o^y_{ij}|}
 $$
 
 $$
